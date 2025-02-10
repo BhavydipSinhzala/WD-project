@@ -1,0 +1,75 @@
+
+*{
+   margin: 0;
+}
+.mainD{
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+   padding-left: 10px;
+   background-image: url(https://img.freepik.com/free-vector/background-template-with-mandala-pattern-design_1308-43584.jpg);
+   background-size: contain;
+}
+.title{
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 100px;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 100px;
+   width: 97vw;
+   height: 100px;
+   background-color: rgb(255, 168, 6);
+   border: 1px solid black;
+   text-align: center;
+   font-family:sans-serif;
+}
+.title h1{
+   margin-top: 20px;
+}
+.title:hover{
+   background-color: rgb(223, 103, 5);
+   color: black;
+   font-size: 17px;
+   transition: 0.5s;
+   font-weight: 1500;
+}
+.names ul{
+   height: 50px;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 10px;
+   background-color: rgb(255, 166, 0);
+}
+.names{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+   border: 1px solid black;
+}
+ a:hover{
+    color: rgb(0, 42, 255);
+    font-size: larger;
+    transition: 0.3s;
+ }
+.div4:hover{
+color: rgb(0, 0, 0);
+font-size: 17px;
+transition: 0.5s;
+
+}
+.div3:hover{
+color: rgb(0, 0, 0);
+font-size: 17px;
+transition: 0.5s;
+}
+.div2:hover{
+color: rgb(0, 0, 0);
+font-size: 17px;
+transition: 0.5s;
+}
+.div1:hover{
+color: rgb(0, 0, 0);
+font-size: 17px;
+transition: 0.5s;
+}
