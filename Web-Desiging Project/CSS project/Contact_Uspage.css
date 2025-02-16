@@ -1,5 +1,5 @@
 
-*{
+ *{
   margin: 0;
 }
 .MAIN{
@@ -9,11 +9,12 @@ background-image: url();
 background-size: contain;
 }
 .mainD{
+  padding-top: 200px;
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
   padding-left: 10px;
-  background-image: url(https://img.freepik.com/free-vector/background-template-with-mandala-pattern-design_1308-43584.jpg);
-  background-size:contain;
+  background-image: url(https://marketplace.canva.com/EAFrJjOsypg/1/0/1131w/canva-green-and-yellow-illustrative-traditional-indian-page-border-ktcg_AWuZvk.jpg);
+  background-size:cover;
   
 }
 .names ul{
@@ -51,31 +52,34 @@ border-radius: 5px;
 button:hover {
 background: #165002;
 }
-#info:hover{
-font-size: 40px;
-transition: 0.5s;
-}
-.form:hover{
-font-size: large;
-transition: 0.5s;
-}
 .names ul li{
   list-style: none;
 }
-.div4:hover{
-  color: rgb(0, 0, 0);
-    transition: 0.7s;
-    transform: scale3d(1.3,1.3,1);
- }
-.div4{
-  width: 1200px;
-  background-color: rgb(236, 203, 143);
-  height: 100px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  margin-left: 150px;
+.div4 {
+  width: 80vw;
+  background: linear-gradient( rgb(255, 168, 6), rgb(223, 103, 5));
+  height: 120px;
+  border-radius: 30px;
+  margin: 20px auto;
   text-align: center;
-  border-top: 1.5px solid black;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition:0.5s ease-out;
 }
+
+.div4:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+Main{
+  text-align: center;
+}
+Main .form{
+  justify-self: center;
+}
+
+
+
